@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Movie Container */
+.movie-container {
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Movie Poster */
+.moviePic {
+  height: 300px;
+  width: 200px;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Movie Description */
+.movieDetail {
+  position: relative;
+  top: 0;
+  width: 90%;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+}
